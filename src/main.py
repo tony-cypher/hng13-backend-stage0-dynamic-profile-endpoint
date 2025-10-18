@@ -86,7 +86,7 @@ async def profile(request: Request):
         "user": {
             "email": settings.CONTACT_EMAIL,
             "name": "Anaeto Anthony Ifeanyi",
-            "stack": "Python/FastAPI, Javascript/NodeJS, TypeScript/NESTJS",
+            "stack": "Python/FastAPI",
         },
         "timestamp": utc_now(),
         "fact": cat_fact,
