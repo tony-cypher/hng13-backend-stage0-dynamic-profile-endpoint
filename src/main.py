@@ -42,7 +42,7 @@ app.add_middleware(
         "localhost",
         "127.0.0.1",
         "0.0.0.0",
-        "https://hng13-backend-stage0-dynamic-profile-endpoint-production.up.railway.app",
+        "hng13-backend-stage0-dynamic-profile-endpoint-production.up.railway.app",
     ],
 )
 
