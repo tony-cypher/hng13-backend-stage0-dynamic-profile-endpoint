@@ -37,7 +37,13 @@ app.add_middleware(
 )
 
 app.add_middleware(
-    TrustedHostMiddleware, allowed_hosts=["localhost", "127.0.0.1", "0.0.0.0"]
+    TrustedHostMiddleware,
+    allowed_hosts=[
+        "localhost",
+        "127.0.0.1",
+        "0.0.0.0",
+        "https://hng13-backend-stage0-dynamic-profile-endpoint-production.up.railway.app",
+    ],
 )
 
 
